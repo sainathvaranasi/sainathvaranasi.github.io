@@ -4,6 +4,9 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+@import url("font-awesome.css");
+@import url("social-icons.css");
+
 html, body{
   	font-family: 'Lato', sans-serif, trebuchet ms, arial, sans-serif;;
     font-size: 100%;
@@ -523,7 +526,7 @@ ul.project-share{
 	width:35px;
 	height:35px;
 	display:inline-block;
-	background:url(../images/social-icons.png) no-repeat 0px 0px;
+	background:url(../images/social-icons.png) no-repeat 20px 20px;
 }
 .social-share ul li a.facebook span{
 	background-position:0px 0px;
@@ -596,11 +599,11 @@ ul.project-share{
 	bottom: 14px;
 	right: 3%;
 	overflow: hidden;
-	width: 40px;
-	height: 40px;
+	width: 100px;
+	height: 100px;
 	border: none;
 	text-indent: 100%;
-	background: url("../images/to-top1.png") no-repeat 0px 0px;
+	background: url("../images/backTopOff.png") no-repeat 0px 0px;
 }
 #toTopHover {
 	width: 40px;
