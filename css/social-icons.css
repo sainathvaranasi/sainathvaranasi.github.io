@@ -27,6 +27,7 @@ hr{
 .list-unstyled {
 	padding-left: 0;
 	list-style: none;
+	text-decoration:none;
 }
 .list-inline li {
 	display: inline-block;
@@ -70,6 +71,7 @@ hr{
 	-webkit-box-shadow: 1px 1px 3px #333;
 	-moz-box-shadow: 1px 1px 3px #333;
 	box-shadow: 1px 1px 3px #333; 
+	text-decoration:none;
 }
 .social-icons.icon-zoom .fa:hover, .social-icons.icon-zoom .fa:active { 
  	-webkit-transform: scale(1.1);

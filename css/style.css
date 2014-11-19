@@ -66,7 +66,7 @@ body a{
 }
 .top-nav ul li.active a,
 .top-nav ul li a:hover{
-	color:#FFF;
+	color:#00B6AE;
 }
 .top-nav ul li.active span{
 	width: 60px;
@@ -109,12 +109,13 @@ nav a {
 	text-decoration: none;
 	line-height: 40px;
 }
-nav a:hover{
+nav li a:hover{
+	color: #00B6AE;
 	text-decoration:none;
-	color:#00A2C1;
 }
 nav a#pull {
 	display: none;
+	color: #00B6AE;
 }
 /*Styles for screen 600px and lower*/
 @media screen and (max-width: 768px) {
@@ -223,6 +224,7 @@ a.contactme:hover{
 /*---- aboutus ----*/
 .aboutus{
 	padding: 3em 0;
+	background: #DCF1CC;
 }
 .aboutus h2{
 	font-size:2em;
@@ -266,8 +268,9 @@ a.aboutus-right-btn:hover{
 }
 /*--- quote ---*/
 .quote{
-	background:#2E3041;
+	background:#B5D1A4;
 	padding:6em 0;
+	text-align:center;
 }
 .quote p{
 	color: #FFF;
@@ -280,6 +283,7 @@ a.aboutus-right-btn:hover{
 /*---- works ----*/
 .works{
 	padding:2em 0 3em;
+	background: #FDEDCE;
 }
 .works h2{
 	font-size:2em;
@@ -375,7 +379,7 @@ ul.project-share{
 /*---//works ----*/
 /*----testmonials---*/
 .testmonials{
-	background:#2E3041;
+	background:#FDB893;
 	padding:3em 0;
 }
 .testmonials h2{
@@ -420,6 +424,7 @@ ul.project-share{
 /*----contact----*/
 .contact{
 	padding: 2em 0;
+	background: #BEB8B2;
 }
 .contact h2{
 	font-size: 2em;
@@ -574,6 +579,14 @@ ul.project-share{
 	background:url(../images/footer-bg.png);
 	padding:5em 0; 
 }
+
+.copy-right h2{
+
+	color: #DEDBD8;
+	
+	text-shadow: 0 0 20px #DD4814;
+}
+
 .copy-right p{
 	color:#FFF;
 	font-size:0.875em;
@@ -581,6 +594,10 @@ ul.project-share{
 }
 .copy-right p a{
 	color:#FFF;
+}
+.copy-right a:hover{
+	text-decoration:none;
+	color:#00B6AE;
 }
 .copy-right p a:hover{
 	text-decoration:none;
