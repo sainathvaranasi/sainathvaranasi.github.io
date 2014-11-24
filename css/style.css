@@ -384,7 +384,7 @@ ul.project-share{
 }
 .testmonials h2{
 	font-size: 2em;
-	color: #FFF;
+	color: #333333;
 	font-weight: 900;
 	margin: 0;
 	padding: 0.5em 0;
@@ -409,7 +409,7 @@ ul.project-share{
 	float:right;
 }
 .people-testmonials p{
-	color:#FFF;
+	color:#0000;
 	font-size:2em;
 	font-weight:600;
 }
