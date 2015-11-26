@@ -5,13 +5,24 @@
 
 
 /*
+	
+	Thanks to HMTL5up for the template
+	Modified - font 
+	Color Palette - https://s-media-cache-ak0.pinimg.com/236x/f4/a0/4b/f4a04bfd80232cd2bf21b1eddce02fd8.jpg
+	1 Color - #F3D36E - Yolk Yellow
+	2 Color - #F34D37 - Sun Set Orange
+	3 Color - #DA003A - Vibrant Red
+	4 Color - #5F1A37 - Ubuntu Brown
+	5 Color - #41787B - Grey Green
+
+	Logo - https://icons8.com/web-app/new-icons/all 
+
 	Strata by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
 /* Reset */
-
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -1553,6 +1564,14 @@
 
 /* Basic */
 
+	/*Colors 
+		var-yolk_yellow : #F3D36E;
+		var-sunset_orange : #F34D37;
+		var-vibrant_red : #DA003A;
+		var-ubuntu_brown : #5F1A37;
+		var-grey_green : #41787B;
+	*/
+
 	body {
 		background: #fff;
 	}
@@ -1569,10 +1588,10 @@
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #DA003A;
 		font-family: "Poiret One", "Raleway", Helvetica, sans-serif;
 		font-size: 16pt;
-		font-weight: 400;
+		font-weight: 600;
 		line-height: 1.75em;
 	}
 
@@ -1594,7 +1613,7 @@
 
 	strong, b {
 		color: #787878;
-		font-weight: 400;
+		font-weight: 500;
 	}
 
 	em, i {
@@ -1607,7 +1626,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #000000;
-		font-weight: 400;
+		font-weight: 600;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
@@ -2335,10 +2354,10 @@
 		background-color: transparent;
 		border-radius: 0.35em;
 		border: solid 3px #efefef;
-		color: #787878 !important;
+		color: #000000 !important;
 		cursor: pointer;
 		display: inline-block;
-		font-weight: 400;
+		font-weight: 550;
 		height: 3.15em;
 		height: calc(2.75em + 6px);
 		line-height: 2.75em;
